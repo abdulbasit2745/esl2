@@ -1,3 +1,4 @@
+import Image from "next/image"
 "use client"
 
 export default function HomePage() {
@@ -6,7 +7,7 @@ export default function HomePage() {
       {/* Header */}
       <header className="bg-primary text-primary-foreground py-6 px-4">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl font-bold text-center">Welcome to PAIB</h1>
+          <h1 className="text-3xl font-bold text-center">Welcome to techHub</h1>
           <nav className="mt-4">
             <ul className="flex justify-center gap-6">
               <li>
@@ -56,7 +57,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <p className="text-muted-foreground mb-4">
-                We believe in the power of simplicity. This website demonstrates how effective design doesn't need to be
+                We believe in the power of simplicity. This website demonstrates how effective design doesnt need to be
                 complicated or rely on heavy frameworks.
               </p>
               <p className="text-muted-foreground">
@@ -102,15 +103,15 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold mb-6">Get In Touch</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <p className="text-muted-foreground mb-6">Ready to start your project? We'd love to hear from you.</p>
+              <p className="text-muted-foreground mb-6">Ready to start your project? We had love to hear from you.</p>
               <div className="space-y-3">
                 <p className="flex items-center gap-3">
                   <span className="font-semibold">Email:</span>
-                  <span className="text-muted-foreground">hello@example.com</span>
+                  <span className="text-muted-foreground">abdulbasit2745@gmail.com</span>
                 </p>
                 <p className="flex items-center gap-3">
                   <span className="font-semibold">Phone:</span>
-                  <span className="text-muted-foreground">(555) 123-4567</span>
+                  <span className="text-muted-foreground">(300) 664-9501</span>
                 </p>
                 <p className="flex items-center gap-3">
                   <span className="font-semibold">Address:</span>
@@ -176,7 +177,7 @@ export default function HomePage() {
       <footer className="bg-muted text-muted-foreground py-8 px-4 mt-12">
         <div className="max-w-4xl mx-auto text-center">
           <p>&copy; 2025 Simple Website. Built with minimal dependencies and maximum care.</p>
-          <p className="mt-2 text-sm">Demonstrating that great websites don't need complex frameworks.</p>
+          <p className="mt-2 text-sm">Demonstrating that great websites dont need complex frameworks.</p>
         </div>
       </footer>
     </div>
